@@ -23,10 +23,6 @@ steps:
     goals: 'package'
 
     
-- script: |
-    echo Starting the build
-    mvn package
-  displayName: 'Build with Maven'
 
 #- script: echo Hello, world!
 #  displayName: 'Run a one-line script'
